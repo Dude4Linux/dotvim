@@ -1,3 +1,8 @@
+" Activate Pathogen plugin
+runtime bundle/pathogen/autoload/pathogen.vim
+call pathogen#incubate()
+call pathogen#helptags()
+
 " Configure Vim Preferences
 " Use nocompatible mode to avoid ssh problems with arrow keys
 set nocompatible
