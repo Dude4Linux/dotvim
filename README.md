@@ -8,6 +8,8 @@ Create symlink:
 
 Switch to the  directory, and fetch submodules:
 
+    apt-get update
+    apt-get install vim-nox
     cd ~/.vim
     git submodule init
     git submodule update
