@@ -29,6 +29,8 @@ Switch to the `~/.vim` directory, and fetch submodules:
 
 ### Update All Submodules:
 
+    cd ~/.vim
+    git pull origin master
     git submodule foreach git pull origin master
 
 ### Credits:
@@ -36,4 +38,8 @@ Switch to the `~/.vim` directory, and fetch submodules:
 - VIM CASTS.org - Synchronizing plugins with git submodules and pathogen
 
     http://vimcasts.org/episodes/synchronizing-plugins-with-git-submodules-and-pathogen/
+
+- Nils Haldenwang - How to ignore changes in git submodules
+
+    http://www.nils-haldenwang.de/frameworks-and-tools/git/how-to-ignore-changes-in-git-submodules
 
