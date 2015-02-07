@@ -1,6 +1,6 @@
 " Activate Pathogen plugin
 runtime bundle/pathogen/autoload/pathogen.vim
-call pathogen#incubate()
+call pathogen#infect('bundle/{}')
 call pathogen#helptags()
 
 " Configure Vim Preferences
